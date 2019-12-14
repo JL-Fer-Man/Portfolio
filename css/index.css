@@ -1,0 +1,71 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#container{
+    margin: 0%;
+    padding: 0%;
+    background: url(../img/computer_code.jpg);
+}
+header h1{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header p{
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+aside{
+    width: 15%;
+    height: 300px;
+    margin-left: 20px;
+    position: fixed;
+    background-color: whitesmoke;
+    top: 170px;
+    opacity: 70%;
+}
+aside p{
+    margin-left: 20px;
+}
+aside li:hover{
+    font-size: 2em;
+}
+section{
+    width: 80%;
+    height: 510px;
+    margin-left: 20%;
+}
+section p{
+    float: left;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 2%;
+    border: solid 10px white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 7%;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+}
+section p:hover{
+    background-color: rgba(77, 206, 211, 0.507);
+}
+footer{
+    clear: both;
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    opacity: 70%;
+    margin-bottom: 0%;
+}
+footer p{
+    text-align: center;
+    padding: 1%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
